@@ -1,0 +1,48 @@
+{
+    "scm.compactFolders": false,
+    "workbench.startupEditor": "none",
+    "editor.fontSize": 16,
+    "window.zoomLevel": -0.5,
+
+
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+
+        "python": "cls; py -u",
+       
+    },
+    "code-runner.ignoreSelection": true,
+
+
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "python.defaultInterpreterPath": "python",
+
+
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/.git": true,
+    },
+
+
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "chat.commandCenter.enabled": false,
+
+
+    "editor.rulers": [80],
+    "files.autoSave": "afterDelay",
+
+
+    "git.openRepositoryInParentFolders": "never",
+    "[html]": {
+    
+        "editor.suggest.insertMode": "replace"
+    },
+
+    "emmet.includeLanguages": {
+        "django-html": "html",
+    },
+    "explorer.compactFolders": false
+}
