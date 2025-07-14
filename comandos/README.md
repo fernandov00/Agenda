@@ -20,4 +20,15 @@ git add.
 git commit -m "primeiro commit"
 '''
 
-teste de commit
+migrando a base de dados
+'''
+python manage.py makemigrations
+python manage.py migrate
+'''
+
+criando super usuario django
+'''
+python manage.py createsuperuser
+python manage.py changepassword USERNAME
+'''
+
