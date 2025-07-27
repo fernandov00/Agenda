@@ -1,5 +1,6 @@
 .vscode/
 fernando/
+local_settings.py
 # Django #
 *.log
 *.pot
@@ -7,6 +8,8 @@ fernando/
 __pycache__
 db.sqlite3
 media
+static/
+media/
 
 # Backup files # 
 *.bak 

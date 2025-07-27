@@ -2,7 +2,7 @@
     "scm.compactFolders": false,
     "workbench.startupEditor": "none",
     "editor.fontSize": 16,
-    "window.zoomLevel": -1,
+    "window.zoomLevel": -0.5,
 
 
     "code-runner.runInTerminal": true,
