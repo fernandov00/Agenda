@@ -1,6 +1,7 @@
 .vscode/
 fernando/
 local_settings.py
+desafios.txt
 # Django #
 *.log
 *.pot
