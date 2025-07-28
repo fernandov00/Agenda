@@ -31,7 +31,6 @@ def register(request):
         context,
     )
 
-@login_required(login_url='contact:login')
 def login_view(request):
 
     form = AuthenticationForm(request)
@@ -71,7 +70,7 @@ def user_update(request):
         'form': form
     }
 
-    if not request.method == 'POST':
+    if request.method != 'POST':
         return render(
             request,
             'contact/user_update.html', 
@@ -79,7 +78,9 @@ def user_update(request):
         )
     
     form = RegisterUpdateForm(data=request.POST, instance=request.user)
-
+    context ={
+        'form': form
+    }
     if not form.is_valid():
         return render(
             request,
